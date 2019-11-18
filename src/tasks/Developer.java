@@ -5,6 +5,12 @@ public class Developer implements User {
     private String name;
     private Group group;
 
+    public Developer(int id, String name, Group group) {
+        this.id = id;
+        this.name = name;
+        this.group = group;
+    }
+
     @Override
     public int getId() {
         return id;
